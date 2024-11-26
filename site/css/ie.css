@@ -1,0 +1,12 @@
+.newsletter-form input {
+  padding: 10px 13px 0 0;
+}
+#header {
+  top: 42px;
+}
+#header.header-background h1 {
+  top: 0;
+}
+.slider-wrapper {
+  margin-top: 42px;
+}

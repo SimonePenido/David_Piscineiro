@@ -1,0 +1,227 @@
+.search1 {
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-right: 1px;
+  position: relative;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border: 1px solid #d8d8d8;
+  box-shadow: none;
+  outline: none;
+  height: 42px;
+  width: 309px;
+  background: transparent;
+}
+.search1::-ms-clear {
+  display: none;
+}
+.search1 input {
+  border-radius: 4px;
+  font: 400 16px/24px "Lato", sans-serif;
+  color: #666666;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  height: 42px;
+  width: 254px;
+  background: transparent;
+  padding: 0 0 5px 13px;
+}
+.search1 input::-ms-clear {
+  display: none;
+}
+.search1 input::-webkit-input-placeholder {
+  color: #666666;
+}
+.search1 input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #666666;
+}
+.search1 input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #666666;
+}
+.search1 input:-ms-input-placeholder {
+  color: #666666;
+}
+.search1 a {
+  position: absolute;
+  font-size: 25px;
+  cursor: pointer;
+  color: #ffffff;
+  top: 50%;
+  margin-top: -8px;
+  right: 38px;
+}
+.search1 a > .search_icon {
+  display: block;
+}
+.search1 a > .search_icon:hover:before {
+  color: #ff5a27;
+}
+.search1 a > .search_icon:before {
+  font-family: FontAwesome;
+  font-size: 20px;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: default;
+  content: '\f002';
+  color: #707270;
+  cursor: pointer;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.search1 a > .search_icon:hover {
+  background-position: center -17px;
+}
+@media (max-width: 1199px) {
+  .search1 {
+    width: 259px;
+  }
+  .search1 input {
+    width: 204px;
+  }
+}
+@media (max-width: 767px) {
+  .search1 {
+    width: 420px;
+    margin-top: 20px;
+  }
+  .search1 input {
+    width: 370px;
+  }
+}
+@media (max-width: 480px) {
+  .search1 {
+    width: 270px;
+  }
+  .search1 input {
+    width: 220px;
+  }
+}
+.search2 {
+  margin-top: 31px;
+  margin-bottom: 0;
+  margin-right: 1px;
+  position: relative;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border: 1px solid #d8d8d8;
+  box-shadow: none;
+  outline: none;
+  height: 42px;
+  width: 100%;
+  background: transparent;
+}
+.search2::-ms-clear {
+  display: none;
+}
+.search2 input {
+  border-radius: 4px;
+  font: 400 16px/24px "Lato", sans-serif;
+  color: #666666;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  height: 42px;
+  width: 315px;
+  background: transparent;
+  padding: 0 0 5px 13px;
+}
+.search2 input::-ms-clear {
+  display: none;
+}
+.search2 input::-webkit-input-placeholder {
+  color: #666666;
+}
+.search2 input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #666666;
+}
+.search2 input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #666666;
+}
+.search2 input:-ms-input-placeholder {
+  color: #666666;
+}
+.search2 a {
+  position: absolute;
+  font-size: 25px;
+  cursor: pointer;
+  color: #ffffff;
+  top: 50%;
+  margin-top: -12px;
+  right: 38px;
+}
+.search2 a > .search_icon {
+  display: block;
+}
+.search2 a > .search_icon:hover:before {
+  color: #ff5a27;
+}
+.search2 a > .search_icon:before {
+  font-family: FontAwesome;
+  font-size: 20px;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: default;
+  content: '\f002';
+  color: #707270;
+  cursor: pointer;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+@media (max-width: 1199px) {
+  .search2 {
+    width: 300px;
+  }
+  .search2 input {
+    width: 245px;
+  }
+}
+@media (max-width: 979px) {
+  .search2 {
+    width: 236px;
+  }
+  .search2 input {
+    width: 181px;
+  }
+}
+@media (max-width: 767px) {
+  .search2 {
+    width: 420px;
+    margin-top: 20px;
+  }
+  .search2 input {
+    width: 370px;
+  }
+}
+@media (max-width: 480px) {
+  .search2 {
+    width: 270px;
+  }
+  .search2 input {
+    width: 220px;
+  }
+}

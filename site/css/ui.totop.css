@@ -1,0 +1,25 @@
+/* UItoTop styles
+========================================================*/
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 40px;
+  left: 51%;
+  margin-left: 640px;
+  overflow: hidden;
+  border: none;
+  color: #19b0e4;
+  width: 24px;
+  height: 25px;
+  font-size: 28px;
+  text-align: center;
+  z-index: 20;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#toTop:hover {
+  outline: none;
+  color: #e85456;
+}
+/*Core variables and mixins*/

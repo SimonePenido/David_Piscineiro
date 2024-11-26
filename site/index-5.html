@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contacts</title>
+    <meta charset="utf-8">
+    <meta name = "format-detection" content = "telephone=no" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/contact-form.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/jquery.equalheights.js"></script>
+    <script src="js/TMForm.js"></script>
+    <script src="js/modal.js"></script>
+    <script type="text/javascript" src="js/sForm.js"></script>
+
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <script src="js/wow/wow.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($('html').hasClass('desktop')) {
+                new WOW().init();
+            }
+        });
+    </script>
+    <!--<![endif]-->
+    <script>
+        $(document).ready(function () {
+            document.getElementById("show-newsletter-form").onclick = function() {
+                document.getElementById("form1").style.marginTop="0";
+            };
+            $('#form1').sForm({
+                ownerEmail:'#',
+                sitename:'sitename.link'
+            });
+        });
+    </script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+            <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+    </div>
+    <![endif]-->
+</head>
+
+<body>
+
+<!--========================================================
+                          HEADER
+=========================================================-->
+<header id="header" class="header-background">
+    <div id="stuck_container">
+        <div class="container">
+            <div class="row">
+                <div class="grid_12">
+                    <h1>
+                        <a href="index.html">
+                            <span class="logo">
+                                <span class="main">Jacob</span>
+                                <span class="secondary">pool maintenance</span>
+                            </span>
+                        </a>
+                    </h1>
+                    <nav>
+                        <ul class="sf-menu">
+
+                            <li><a href="index.html">About us</a></li>
+                            <li><a href="index-1.html">Services</a>
+                                <ul>
+                                    <li><a href="#">Vestibulum iaculis</a></li>
+                                    <li><a href="#">Fusce euismod conuat</a>
+                                        <ul>
+                                            <li><a href="#">Pellentesque sed</a></li>
+                                            <li><a href="#">Aliquam congue ferm</a></li>
+                                            <li><a href="#">Mauris accum</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Pellentesque</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="index-2.html">Maintenance</a></li>
+                            <li><a href="index-3.html">Staff</a></li>
+                            <li><a href="index-4.html">Ask an expert</a></li>
+                            <li class="current"><a href="index-5.html">Contacts</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--========================================================
+                          content
+=========================================================-->
+<section id="content" class="content2">
+    <div class="wow bounceInLeft wrapper8">
+        <div class="container">
+            <div class="row">
+                <div class="grid_12">
+                    <div class="header4">
+                        <h2>Contact Us</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="grid_12">
+                    <div class="google-map_contacts">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="grid_4">
+                    <address class="contacts-address  maxheight">
+                        <span class="h3">Address 1</span>
+                        <span>The Company Name Inc</span>
+                        <span class="our-address">8901 Marmora Road, Glasgow, D04 89GR.</span>
+                    </address>
+                </div>
+                <div class="grid_4">
+                    <address class="contacts-address  maxheight">
+                        <span class="h3">Telephones</span>
+                        <span>+1 800 559 6580</span>
+                        <span>+1 959 603 6035</span>
+                    </address>
+                </div>
+                <div class="grid_4">
+                    <address class="contacts-address  maxheight">
+                        <span class="h3">Address 2</span>
+                        <span>The Company Name Inc</span>
+                        <span class="our-address">9863 - 9867 Mill Road, Cambridge, MG09 99HT</span>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper9">
+        <div class="container">
+            <div class="row">
+                <div class="grid_12">
+                    <div class="header4">
+                        <h2>Contact Form</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="grid_12">
+                    <form id="contact-form">
+                        <div class="contact-form-loader"></div>
+                        <fieldset>
+                            <div class="row">
+                                <div class="grid_4">
+                                    <label class="name">
+                                        <input type="text" name="name" placeholder="Name:*" data-constraints="@Required @JustLetters" />
+                                        <span class="empty-message">*This field is required.</span>
+                                    </label>
+                                </div>
+                                <div class="grid_4">
+                                    <label class="email">
+                                        <input type="text" name="email" placeholder="E-mail:*" value=""
+                                               data-constraints="@Required @Email" />
+                                        <span class="empty-message">*This field is required.</span>
+                                        <span class="error-message">*This is not a valid email.</span>
+                                    </label>
+                                </div>
+                                <div class="grid_4">
+                                    <label class="phone">
+                                        <input type="text" name="phone" placeholder="Phone:" value=""
+                                               data-constraints="@JustNumbers" />
+                                        <span class="empty-message">*This field is required.</span>
+                                        <span class="error-message">*This is not a valid phone.</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="grid_12">
+                                    <label class="message">
+                                        <textarea name="message" placeholder="Message:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                                        <span class="empty-message">*This field is required.</span>
+                                        <span class="error-message">*The message is too short.</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- <label class="recaptcha"><span class="empty-message">*This field is required.</span></label> -->
+                            <div class="contact-form-buttons">
+                                <a href="#" data-type="reset" class="btn-default">Clear</a>
+                                <a href="#" data-type="submit" class="btn-default">Send</a>
+                            </div>
+                        </fieldset>
+                        <div class="modal fade response-message">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">Modal title</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        You message has been sent! We will be in touch soon.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--========================================================
+                          FOOTER
+=========================================================-->
+<footer id="footer">
+    <div class="wow bounceInLeft wrapper7">
+        <div class="container">
+            <div class="row">
+                <div class="grid_3">
+                    <span class="h8">Get in touch</span>
+                    <address class="contact-page_address">
+                        <span class="our-address">8901 Marmora Road,<br>Glasgow, D04 89GR.</span>
+                        <dl>
+                            <dt>
+                                <span class="numbers telephone">Freephone:</span><span>+1 800 559 6580</span><br>
+                                <span class="numbers telephone">Telephone:</span><span>+1 959 603 6035</span><br>
+                                <span class="numbers fax">FAX:</span><span>+1 504 889 9898</span><br>
+                                <span class="email">E-mail: <span><a href="#" class="simple-link">mail@demolink.org</a></span></span><br>
+                            </dt>
+                            <dd></dd>
+                        </dl>
+                    </address>
+                </div>
+                <div class="grid_2">
+                    <ul class="footer_menu">
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="index-1.html">Services</a></li>
+                        <li><a href="index-2.html">Maintenance</a></li>
+                        <li><a href="index-3.html">Staff</a></li>
+                        <li><a href="index-4.html">Ask an Expert</a></li>
+                        <li class="current"><a href="index-5.html">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="grid_3">
+                    <span class="h8">Follow us</span>
+                    <ul class="socials2">
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="grid_3 preffix_1">
+                    <span class="h8">Join our newsletter</span>
+                    <p class="newsletter-p">And always stay informed of the latest company news and events!</p>
+                    <a class="btn-blue" id="show-newsletter-form">Sign up</a>
+                    <div class="newsletter-form" id="newsletter-form1">
+                        <form id="form1">
+                            <div class="success">Your subscribe request has been sent!</div>
+                            <fieldset>
+                                <label class="name">
+                                    <input type="text" value="Your Name:">
+                                    <span class="error">*This is not a valid name.</span></label>
+                                <label class="email">
+                                    <input type="email" value="Your E-mail:">
+                                    <span class="error">*This is not a valid email address.</span></label>
+                                <a href="#" class="button" data-type="submit">Submit</a>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wow bounceInRight wrapper6">
+        <div class="container">
+            <div class="row">
+                <div class="grid_12">
+                    <div class="privacy-block">
+                        &copy; <span id="copyright-year"></span><a href="#"> JACOB. Pool Maintenance. </a><a href="index-6.html">Privacy policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
