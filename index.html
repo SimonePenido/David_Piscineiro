@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>About us</title>
     <meta charset="utf-8">
-    <meta name = "format-detection" content = "telephone=no" />
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/camera.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.2.1.js"></script>
-    <script src="js/camera.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script type="text/javascript" src="js/sForm.js"></script>
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="site/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="site/css/grid.css">
+    <link rel="stylesheet" href="site/css/camera.css">
+    <link rel="stylesheet" href="site/css/owl.carousel.css">
+    <link rel="stylesheet" href="site/css/style.css">
+    <script src="site/js/jquery.js"></script>
+    <script src="site/js/jquery-migrate-1.2.1.js"></script>
+    <script src="site/js/camera.js"></script>
+    <script src="site/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="site/js/sForm.js"></script>
     <!--[if (gt IE 9)|!(IE)]><!-->
-    <script src="js/jquery.mobile.customized.min.js"></script>
-    <script src="js/wow/wow.js"></script>
+    <script src="site/js/jquery.mobile.customized.min.js"></script>
+    <script src="site/js/wow/wow.js"></script>
     <script>
         $(document).ready(function () {
             if ($('html').hasClass('desktop')) {
@@ -38,25 +39,25 @@
                 fx: 'simpleFade'
             });
             $("#owl").owlCarousel({
-                items : 9, //10 items above 1000px browser width
-                itemsDesktop : [1199,7], //5 items between 1000px and 901px
-                itemsDesktopSmall : [979, 5], // betweem 900px and 601px
+                items: 9, //10 items above 1000px browser width
+                itemsDesktop: [1199, 7], //5 items between 1000px and 901px
+                itemsDesktopSmall: [979, 5], // betweem 900px and 601px
                 itemsTablet: [767, 3], //2 items between 600 and 0
-                itemsMobile : [479, 2], // itemsMobile disabled - inherit from itemsTablet option
-                navigation : true,
-                pagination : false
+                itemsMobile: [479, 2], // itemsMobile disabled - inherit from itemsTablet option
+                navigation: true,
+                pagination: false
             });
-            $( "#accordion" ).accordion({ header: "h3", heightStyle: "content"});
-            document.getElementById("show-newsletter-form").onclick = function() {
-                document.getElementById("form1").style.marginTop="0";
+            $("#accordion").accordion({ header: "h3", heightStyle: "content" });
+            document.getElementById("show-newsletter-form").onclick = function () {
+                document.getElementById("form1").style.marginTop = "0";
             };
             $('#form1').sForm({
-                ownerEmail:'#',
-                sitename:'sitename.link'
+                ownerEmail: '#',
+                sitename: 'sitename.link'
             });
         });
     </script>
-    <script src="js/jquery-ui.js"></script>
+    <script src="site/js/jquery-ui.js"></script>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
@@ -70,542 +71,583 @@
 
 <body>
 
-<!--========================================================
+    <!--========================================================
                           HEADER
 =========================================================-->
-<header id="header" class="__absolute">
-    <div id="stuck_container">
-        <div class="container">
-            <div class="row">
-                <div class="grid_12">
-                    <h1>
-                        <a href="index.html">
-                            <span class="logo">
-                                <span class="main">Jacob</span>
-                                <span class="secondary">pool maintenance</span>
-                            </span>
-                        </a>
-                    </h1>
-                    <nav>
-                        <ul class="sf-menu">
+    <header id="header" class="__absolute">
+        <div id="stuck_container">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_12">
+                        <h1>
+                            <a href="index.html">
+                                <span class="logo">
+                                    <span class="main">David</span>
+                                    <span class="secondary">Limpeza e Manutenção de Piscinas</span>
+                                </span>
+                            </a>
+                        </h1>
+                        <nav>
+                            <ul class="sf-menu">
 
-                            <li class="current"><a href="index.html">About us</a></li>
-                            <li><a href="index-1.html">Services</a>
-                                <ul>
-                                    <li><a href="#">Vestibulum iaculis</a></li>
-                                    <li><a href="#">Fusce euismod conuat</a>
-                                        <ul>
-                                            <li><a href="#">Pellentesque sed</a></li>
-                                            <li><a href="#">Aliquam congue ferm</a></li>
-                                            <li><a href="#">Mauris accum</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Pellentesque</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="index-2.html">Maintenance</a></li>
-                            <li><a href="index-3.html">Staff</a></li>
-                            <li><a href="index-4.html">Ask an expert</a></li>
-                            <li><a href="index-5.html">Contacts</a></li>
-                        </ul>
-                        <div class="clearfix"></div>
-                    </nav>
+                                <li class="current"><a href="index.html">Sobre mim</a></li>
+                                <li><a href="site/index-1.html">Serviços</a>
+                                    <ul>
+                                        <li><a href="#">Vestibulum iaculis</a></li>
+                                        <li><a href="#">Fusce euismod conuat</a>
+                                            <ul>
+                                                <li><a href="#">Pellentesque sed</a></li>
+                                                <li><a href="#">Aliquam congue ferm</a></li>
+                                                <li><a href="#">Mauris accum</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Pellentesque</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="site/index-2.html">Maintenance</a></li>
+                                <li><a href="site/index-3.html">Staff</a></li>
+                                <li><a href="site/index-4.html">Ask an expert</a></li>
+                                <li><a href="site/index-5.html">Contacts</a></li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<!--========================================================
+    <!--========================================================
                           CONTENT
 =========================================================-->
-<section id="content">
-    <div class="slider-wrapper">
-        <div id="camera_wrap">
-            <div data-src="images/slider1.png">
-                <div class="caption fadeIn">
-                    <div class="container">
-                        <div class="row">
-                            <div class="grid_12">
-                                <h6>We provide services for all sizes of commercial or community swimming pools</h6>
-                                <span class="phone">+1 959 603 6035</span>
+    <section id="content">
+        <div class="slider-wrapper">
+            <div id="camera_wrap">
+                <div data-src="//images/slider1.png">
+                    <div class="caption fadeIn">
+                        <div class="container">
+                            <div class="row">
+                                <div class="grid_12">
+                                    <h6>Sua piscina sob os cuidados de uma limpeza profissional.</h6>
+                                    <span class="phone">51 99631-6677</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-src="//images/slider2.png">
+                    <div class="caption fadeIn">
+                        <div class="container">
+                            <div class="row">
+                                <div class="grid_12">
+                                    <h6>Qualidade e confiança na prestação de serviço.</h6>
+                                    <span class="phone">51 99631-6677</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-src="//images/slider3.png">
+                    <div class="caption fadeIn">
+                        <div class="container">
+                            <div class="row">
+                                <div class="grid_12">
+                                    <h6>Limpezas periódicas com agendamento.</h6>
+                                    <span class="phone">51 99631-6677</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="clearfix"></div>
+        </div>
 
-            <div data-src="images/slider2.png">
-                <div class="caption fadeIn">
-                    <div class="container">
-                        <div class="row">
-                            <div class="grid_12">
-                                <h6>We offer different ways to maintain the water clarity</h6>
-                                <span class="phone">+1 959 603 6035</span>
+        <div class="wow bounceInRight banner1">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_8 preffix_2">
+                        <span class="text">Conheça os serviços de David, especialista em limpeza e manutenção de
+                            piscinas, e mantenha sua piscina sempre impecável!</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wow bounceInLeft wrapper1">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_12">
+                        <div class="header1">
+                            <h2>helpful tips</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="grid_4">
+                        <div class=" post1">
+                            <img src="site/images/page1_img1.png" alt="" />
+                            <h3>Quisque nulla Vestibulum</h3>
+                            <p>Trabalhamos diariamente para deixar a água de sua piscina equilibrada
+                                físico-quimicamente, evitando, assim, o ressecamento da sua pele e cabelos, e ainda,
+                                prevenindo a irritação de olhos e mucosas corporais.</p>
+                            <a href="#" class="btn-default">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="grid_4">
+                        <div class=" post1">
+                            <img src="site/images/page1_img2.png" alt="" />
+                            <h3>scelerisque eget malesuada</h3>
+                            <p>Uma piscina cristalina é uma piscina que se enxerga perfeitamente, incluisve, sua parte
+                                mais profunda. Ela deve ser brilhosa ao receber luz. A água da piscina não pode
+                                apresentar qualquer coloração apesar de parecer azul quando sua superfície possui esta
+                                cor.</p>
+                            <a href="#" class="btn-default">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="grid_4">
+                        <div class=" post1">
+                            <img src="site/images/page1_img3.png" alt="" />
+                            <h3>Vivamus eget nibhEtiam</h3>
+                            <p>A água de uma piscina está equilibrada quando possui seus parâmetros físico-químicos (pH,
+                                alcalinidade total, dureza e ácido cianúrico) dentro dos níveis ideais, impedindo,
+                                assim, a incrustação e a corrosão. Esses parâmetros são avaliados por meio do Índice de
+                                Langelier ou Índice de Saturação.</p>
+                            <a href="#" class="btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="grid_4">
+                        <div class=" post1">
+                            <img src="site/images/page1_img4.png" alt="" />
+                            <h3>Quisque nulla Vestibulum</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                            <a href="#" class="btn-default">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="grid_4">
+                        <div class=" post1">
+                            <img src="site/images/page1_img5.png" alt="" />
+                            <h3>scelerisque eget malesuada</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                            <a href="#" class="btn-default">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="grid_4">
+                        <div class=" post1">
+                            <img src="site/images/page1_img6.png" alt="" />
+                            <h3>Vivamus eget nibhEtiam</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                            <a href="#" class="btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wow bounceInRight wrapper2">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_6">
+                        <div class=" post2">
+                            <h2>Our Staff</h2>
+                            <p>Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque.
+                                Vivamus eget nibh. Etiam cursus leo vel metua facilisi. Aenean nec eros. Vestibulum ante
+                                ipsum primis in faucibus orci luctus et ultre cubilia Curae; Suspendisse sollicitudin
+                                velit sed leo. Ut pharetra augue nec augue. Ndrerit sit amet, tincidunt ac, viverra sed,
+                                nulla. Donec porta diam eu massa. Quisque diam lorem, interdude. Donec eget tellus non
+                                erat lacinia fermentum. Donec in velit vel.</p>
+                            <a class="btn-default" href="#">Request Service</a>
+                        </div>
+                    </div>
+                    <div class="grid_2">
+                        <div class=" post3">
+                            <div class="img-wrapper">
+                                <img src="site/images/page1_img7.png" alt="" />
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div data-src="images/slider3.png">
-                <div class="caption fadeIn">
-                    <div class="container">
-                        <div class="row">
-                            <div class="grid_12">
-                                <h6>We know how to save your energy and money!</h6>
-                                <span class="phone">+1 959 603 6035</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-
-    <div class="wow bounceInRight banner1">
-        <div class="container">
-            <div class="row">
-                <div class="grid_8 preffix_2">
-                    <span class="text">Welcome to our site! Keeping your pool sparkling clean doesn't have to be as cumbersome as you might think. All pools are different, and so are their maintenance needs.</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="wow bounceInLeft wrapper1">
-        <div class="container">
-            <div class="row">
-                <div class="grid_12">
-                    <div class="header1">
-                        <h2>helpful tips</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="grid_4">
-                    <div class=" post1">
-                        <img src="images/page1_img1.png" alt=""/>
-                        <h3>Quisque nulla Vestibulum</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-                        <a href="#" class="btn-default">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="grid_4">
-                    <div class=" post1">
-                        <img src="images/page1_img2.png" alt=""/>
-                        <h3>scelerisque eget malesuada</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-                        <a href="#" class="btn-default">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="grid_4">
-                    <div class=" post1">
-                        <img src="images/page1_img3.png" alt=""/>
-                        <h3>Vivamus eget nibhEtiam</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-                        <a href="#" class="btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="grid_4">
-                    <div class=" post1">
-                        <img src="images/page1_img4.png" alt=""/>
-                        <h3>Quisque nulla Vestibulum</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-                        <a href="#" class="btn-default">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="grid_4">
-                    <div class=" post1">
-                        <img src="images/page1_img5.png" alt=""/>
-                        <h3>scelerisque eget malesuada</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-                        <a href="#" class="btn-default">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="grid_4">
-                    <div class=" post1">
-                        <img src="images/page1_img6.png" alt=""/>
-                        <h3>Vivamus eget nibhEtiam</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-                        <a href="#" class="btn-default">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="wow bounceInRight wrapper2">
-        <div class="container">
-            <div class="row">
-                <div class="grid_6">
-                    <div class=" post2">
-                        <h2>Our Staff</h2>
-                        <p>Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiam cursus leo vel metua facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultre cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Ndrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdude. Donec eget tellus non erat lacinia fermentum. Donec in velit vel.</p>
-                        <a class="btn-default" href="#">Request Service</a>
-                    </div>
-                </div>
-                <div class="grid_2">
-                    <div class=" post3">
-                        <div class="img-wrapper">
-                            <img src="images/page1_img7.png" alt=""/>
-                        </div>
-                        <h4>Gavin Burchall</h4>
-                        <span class="__color-3">Manager</span>
-                        <p>Epsum factorial non deid pro quo hic.</p>
-                        <ul class="socials1">
-                            <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="grid_2">
-                    <div class=" post3">
-                        <div class="img-wrapper">
-                            <img src="images/page1_img8.png" alt=""/>
-                        </div>
-                        <h4>Martin Byrne</h4>
-                        <span class="__color-3">Specialist</span>
-                        <p>Epsum factorial non deid pro quo hic.</p>
-                        <ul class="socials1">
-                            <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="grid_2">
-                    <div class=" post3">
-                        <div class="img-wrapper">
-                            <img src="images/page1_img9.png" alt=""/>
-                        </div>
-                        <h4>Robert Smith</h4>
-                        <span class="__color-3">Technician</span>
-                        <p>Epsum factorial non deid pro quo hic.</p>
-                        <ul class="socials1">
-                            <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="wow bounceInLeft wrapper3">
-        <div class="container">
-            <div class="row">
-                <div class="grid_6">
-                    <div class="header2">
-                        <h5>Recent posts</h5>
-                    </div>
-                    <div class=" post4">
-                        <div class="post4_block1">
-                            <time datetime="2014-01-01" class="1">
-                                <span class="day">17</span>
-                                <span class="month-year">dec, 2014</span>
-                            </time>
-                            <img src="images/camera-icon.png" alt=""/>
-                        </div>
-                        <img src="images/page1_img10.png" alt=""/>
-                        <div class="post4_header">
-                            <ul>
-                                <li><a href="#">By admin</a></li>
-                                <li><a href="#">Web, News</a></li>
-                                <li><a href="#">5 Comments</a></li>
-                                <li><a href="#">Read more ></a></li>
+                            <h4>Gavin Burchall</h4>
+                            <span class="__color-3">Manager</span>
+                            <p>Epsum factorial non deid pro quo hic.</p>
+                            <ul class="socials1">
+                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
                             </ul>
                         </div>
-                        <div class="post4_content">
-                            <h3 class="h3__1"><a href="#">Vestibulum libero nisl, porta vel, scelerisque eget.</a></h3>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque...</p>
-                        </div>
-                        <div class="clearfix"></div>
                     </div>
-
-                     <div class=" post4">
-                        <div class="post4_block1">
-                            <time datetime="2014-01-01" class="1">
-                                <span class="day">28</span>
-                                <span class="month-year">dec, 2014</span>
-                            </time>
-                            <img src="images/video-icon.png" alt=""/>
-                        </div>
-                        <img src="images/page1_img11.png" alt=""/>
-                        <div class="post4_header">
-                            <ul>
-                                <li><a href="#">By admin</a></li>
-                                <li><a href="#">Web, News</a></li>
-                                <li><a href="#">5 Comments</a></li>
-                                <li><a href="#">Read more ></a></li>
+                    <div class="grid_2">
+                        <div class=" post3">
+                            <div class="img-wrapper">
+                                <img src="site/images/page1_img8.png" alt="" />
+                            </div>
+                            <h4>Martin Byrne</h4>
+                            <span class="__color-3">Specialist</span>
+                            <p>Epsum factorial non deid pro quo hic.</p>
+                            <ul class="socials1">
+                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
                             </ul>
                         </div>
-                        <div class="post4_content">
-                            <h3 class="h3__1"><a href="#">Vivamus eget nibhiam cursus leo.</a></h3>
-                            <p>Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiam cursus leo vel metus.</p>
-                        </div>
-                        <div class="clearfix"></div>
                     </div>
-                </div>
-                <div class="grid_3">
-                    <div class="header2">
-                        <h5>What We Offer</h5>
-                    </div>
-                    <div id="accordion">
-                        <h3 class="h_1"><span class="icon"><span class="background"></span></span><span class="text">Vesro nisl, porta velceleris.</span></h3>
-                        <div>
-                            <p>Quisque nulla. Vesro nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh.</p>
-                            <p>Etiam cursus leo vtus. Nulla facilisi. Aenean nec tibulum ante ipsum primis in faucibus orci luctus.</p>
-                        </div>
-                        <h3 class="h_2"><span class="icon"><span class="background"></span></span><span class="text">Wue eget, malesuada at.</span></h3>
-                        <div>
-                            <p>Quisque nulla. Vesro nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh.</p>
-                            <p>Etiam cursus leo vtus. Nulla facilisi. Aenean nec tibulum ante ipsum primis in faucibus orci luctus.</p>
-                        </div>
-                        <h3 class="h_3"><span class="icon"><span class="background"></span></span><span class="text">Nequevamus eget nibhiam.</span></h3>
-                        <div>
-                            <p>Quisque nulla. Vesro nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh.</p>
-                            <p>Etiam cursus leo vtus. Nulla facilisi. Aenean nec tibulum ante ipsum primis in faucibus orci luctus.</p>
+                    <div class="grid_2">
+                        <div class=" post3">
+                            <div class="img-wrapper">
+                                <img src="site/images/page1_img9.png" alt="" />
+                            </div>
+                            <h4>Robert Smith</h4>
+                            <span class="__color-3">Technician</span>
+                            <p>Epsum factorial non deid pro quo hic.</p>
+                            <ul class="socials1">
+                                <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="grid_3">
-                    <div class="header2">
-                        <h5>Testimonials</h5>
+            </div>
+        </div>
+
+        <div class="wow bounceInLeft wrapper3">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_6">
+                        <div class="header2">
+                            <h5>Recent posts</h5>
+                        </div>
+                        <div class=" post4">
+                            <div class="post4_block1">
+                                <time datetime="2014-01-01" class="1">
+                                    <span class="day">17</span>
+                                    <span class="month-year">dec, 2014</span>
+                                </time>
+                                <img src="site/images/camera-icon.png" alt="" />
+                            </div>
+                            <img src="site/images/page1_img10.png" alt="" />
+                            <div class="post4_header">
+                                <ul>
+                                    <li><a href="#">By admin</a></li>
+                                    <li><a href="#">Web, News</a></li>
+                                    <li><a href="#">5 Comments</a></li>
+                                    <li><a href="#">Read more ></a></li>
+                                </ul>
+                            </div>
+                            <div class="post4_content">
+                                <h3 class="h3__1"><a href="#">Vestibulum libero nisl, porta vel, scelerisque eget.</a>
+                                </h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque...</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class=" post4">
+                            <div class="post4_block1">
+                                <time datetime="2014-01-01" class="1">
+                                    <span class="day">28</span>
+                                    <span class="month-year">dec, 2014</span>
+                                </time>
+                                <img src="site/images/video-icon.png" alt="" />
+                            </div>
+                            <img src="site/images/page1_img11.png" alt="" />
+                            <div class="post4_header">
+                                <ul>
+                                    <li><a href="#">By admin</a></li>
+                                    <li><a href="#">Web, News</a></li>
+                                    <li><a href="#">5 Comments</a></li>
+                                    <li><a href="#">Read more ></a></li>
+                                </ul>
+                            </div>
+                            <div class="post4_content">
+                                <h3 class="h3__1"><a href="#">Vivamus eget nibhiam cursus leo.</a></h3>
+                                <p>Quisque nulla. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at,
+                                    neque. Vivamus eget nibh. Etiam cursus leo vel metus.</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
                     </div>
-                    <blockquote class="blockquote1">
-                        <div class="bubble1">
-                            <img src="images/page1_img12.png" alt=""/>
-                            <div class="text">
-                                <span class="name">jack white</span>
-                                <span class="who">the customer</span>
+                    <div class="grid_3">
+                        <div class="header2">
+                            <h5>What We Offer</h5>
+                        </div>
+                        <div id="accordion">
+                            <h3 class="h_1"><span class="icon"><span class="background"></span></span><span
+                                    class="text">Vesro nisl, porta velceleris.</span></h3>
+                            <div>
+                                <p>Quisque nulla. Vesro nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus
+                                    eget nibh.</p>
+                                <p>Etiam cursus leo vtus. Nulla facilisi. Aenean nec tibulum ante ipsum primis in
+                                    faucibus orci luctus.</p>
+                            </div>
+                            <h3 class="h_2"><span class="icon"><span class="background"></span></span><span
+                                    class="text">Wue eget, malesuada at.</span></h3>
+                            <div>
+                                <p>Quisque nulla. Vesro nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus
+                                    eget nibh.</p>
+                                <p>Etiam cursus leo vtus. Nulla facilisi. Aenean nec tibulum ante ipsum primis in
+                                    faucibus orci luctus.</p>
+                            </div>
+                            <h3 class="h_3"><span class="icon"><span class="background"></span></span><span
+                                    class="text">Nequevamus eget nibhiam.</span></h3>
+                            <div>
+                                <p>Quisque nulla. Vesro nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus
+                                    eget nibh.</p>
+                                <p>Etiam cursus leo vtus. Nulla facilisi. Aenean nec tibulum ante ipsum primis in
+                                    faucibus orci luctus.</p>
                             </div>
                         </div>
-                        <span class="main-cite">Quisque nulla. Vesnisl, porta vel, scelerisque eget, alesuada at, neque.</span>
-                        <p class="secondary-cite">Nulla facilisi. Aeean nec eros. Vestibulum ante ium primis in faucibus orci luctus et ultrices posuere cubilia Cuendisse sollicitudin velit.</p>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="wow bounceInRight wrapper4">
-        <div class="container">
-            <div class="row">
-                <div class="grid_6">
-                    <div class="vimeo-video1">
-                        <iframe src="//player.vimeo.com/video/37582125" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
-                </div>
-                <div class="grid_6">
-                    <div class=" post5">
-                        <i class="fa fa-clock-o"></i>
-                        <span class="h7"><a href="#">Vestibulum libero nisl</a></span>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
-                    </div>
-                    <div class=" post5">
-                        <i class="fa fa-star"></i>
-                        <span class="h7"><a href="#">Scelerisque eget malesuada at</a></span>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
-                    </div>
-                    <div class=" post5 last">
-                        <i class="fa fa-thumbs-o-up"></i>
-                        <span class="h7"><a href="#">Etiam cursus leo vel metus</a></span>
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
+                    <div class="grid_3">
+                        <div class="header2">
+                            <h5>Testimonials</h5>
+                        </div>
+                        <blockquote class="blockquote1">
+                            <div class="bubble1">
+                                <img src="site/images/page1_img12.png" alt="" />
+                                <div class="text">
+                                    <span class="name">jack white</span>
+                                    <span class="who">the customer</span>
+                                </div>
+                            </div>
+                            <span class="main-cite">Quisque nulla. Vesnisl, porta vel, scelerisque eget, alesuada at,
+                                neque.</span>
+                            <p class="secondary-cite">Nulla facilisi. Aeean nec eros. Vestibulum ante ium primis in
+                                faucibus orci luctus et ultrices posuere cubilia Cuendisse sollicitudin velit.</p>
+                        </blockquote>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="wow bounceInLeft wrapper5">
-        <div class="container">
-            <div class="row">
-                <div class="grid_12">
-                    <div id="owl">
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img13.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img14.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img15.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img16.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img17.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img18.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img19.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img20.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img21.png" alt=""/></a>
-                        </div>
 
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img13.png" alt=""/></a>
+        <div class="wow bounceInRight wrapper4">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_6">
+                        <div class="vimeo-video1">
+                            <iframe src="//player.vimeo.com/video/37582125" frameborder="0" webkitallowfullscreen
+                                mozallowfullscreen allowfullscreen></iframe>
                         </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img14.png" alt=""/></a>
+                    </div>
+                    <div class="grid_6">
+                        <div class=" post5">
+                            <i class="fa fa-clock-o"></i>
+                            <span class="h7"><a href="#">Vestibulum libero nisl</a></span>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                consequuntur magni dolores eos qui ratione.</p>
                         </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img15.png" alt=""/></a>
+                        <div class=" post5">
+                            <i class="fa fa-star"></i>
+                            <span class="h7"><a href="#">Scelerisque eget malesuada at</a></span>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                consequuntur magni dolores eos qui ratione.</p>
                         </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img16.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img17.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img18.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img19.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img20.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img21.png" alt=""/></a>
-                        </div>
-
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img13.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img14.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img15.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img16.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img17.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img18.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img19.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img20.png" alt=""/></a>
-                        </div>
-                        <div class="item">
-                            <a href="#"><img src="images/page1_img21.png" alt=""/></a>
+                        <div class=" post5 last">
+                            <i class="fa fa-thumbs-o-up"></i>
+                            <span class="h7"><a href="#">Etiam cursus leo vel metus</a></span>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                consequuntur magni dolores eos qui ratione.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+        <div class="wow bounceInLeft wrapper5">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_12">
+                        <div id="owl">
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img13.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img14.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img15.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img16.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img17.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img18.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img19.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img20.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img21.png" alt="" /></a>
+                            </div>
+
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img13.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img14.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img15.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img16.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img17.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img18.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img19.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img20.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img21.png" alt="" /></a>
+                            </div>
+
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img13.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img14.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img15.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img16.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img17.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img18.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img19.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img20.png" alt="" /></a>
+                            </div>
+                            <div class="item">
+                                <a href="#"><img src="site/images/page1_img21.png" alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
-<!--========================================================
+    <!--========================================================
                           FOOTER
 =========================================================-->
-<footer id="footer">
-    <div class="wow bounceInRight wrapper7">
-        <div class="container">
-            <div class="row">
-                <div class="grid_3">
-                    <span class="h8">Get in touch</span>
-                    <address class="contact-page_address">
-                        <span class="our-address">8901 Marmora Road,<br>Glasgow, D04 89GR.</span>
-                        <dl>
-                            <dt>
-                                <span class="numbers telephone">Freephone:</span><span>+1 800 559 6580</span><br>
-                                <span class="numbers telephone">Telephone:</span><span>+1 959 603 6035</span><br>
-                                <span class="numbers fax">FAX:</span><span>+1 504 889 9898</span><br>
-                                <span class="email">E-mail: <span><a href="#" class="simple-link">mail@demolink.org</a></span></span><br>
-                            </dt>
-                            <dd></dd>
-                        </dl>
-                    </address>
-                </div>
-                <div class="grid_2">
-                    <ul class="footer_menu">
-                        <li class="current"><a href="index.html">About Us</a></li>
-                        <li><a href="index-1.html">Services</a></li>
-                        <li><a href="index-2.html">Maintenance</a></li>
-                        <li><a href="index-3.html">Staff</a></li>
-                        <li><a href="index-4.html">Ask an Expert</a></li>
-                        <li><a href="index-5.html">Contacts</a></li>
-                    </ul>
-                </div>
-                <div class="grid_3">
-                    <span class="h8">Follow us</span>
-                    <ul class="socials2">
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-                <div class="grid_3 preffix_1">
-                    <span class="h8">Join our newsletter</span>
-                    <p class="newsletter-p">And always stay informed of the latest company news and events!</p>
-                    <a class="btn-blue" id="show-newsletter-form">Sign up</a>
-                    <div class="newsletter-form" id="newsletter-form1">
-                        <form id="form1">
-                            <div class="success">Your subscribe request has been sent!</div>
-                            <fieldset>
-                                <label class="name">
-                                    <input type="text" value="Your Name:">
-                                    <span class="error">*This is not a valid name.</span></label>
-                                <label class="email">
-                                    <input type="email" value="Your E-mail:">
-                                    <span class="error">*This is not a valid email address.</span></label>
-                                <a href="#" class="button" data-type="submit">Submit</a>
-                            </fieldset>
-                        </form>
+    <footer id="footer">
+        <div class="wow bounceInRight wrapper7">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_3">
+                        <span class="h8">Get in touch</span>
+                        <address class="contact-page_address">
+                            <span class="our-address">8901 Marmora Road,<br>Glasgow, D04 89GR.</span>
+                            <dl>
+                                <dt>
+                                    <span class="numbers telephone">Freephone:</span><span>+1 800 559 6580</span><br>
+                                    <span class="numbers telephone">Telephone:</span><span>51 99631-6677</span><br>
+                                    <span class="numbers fax">FAX:</span><span>+1 504 889 9898</span><br>
+                                    <span class="email">E-mail: <span><a href="#"
+                                                class="simple-link">mail@demolink.org</a></span></span><br>
+                                </dt>
+                                <dd></dd>
+                            </dl>
+                        </address>
+                    </div>
+                    <div class="grid_2">
+                        <ul class="footer_menu">
+                            <li class="current"><a href="index.html">About Us</a></li>
+                            <li><a href="site/index-1.html">Services</a></li>
+                            <li><a href="site/index-2.html">Maintenance</a></li>
+                            <li><a href="site/index-3.html">Staff</a></li>
+                            <li><a href="site/index-4.html">Ask an Expert</a></li>
+                            <li><a href="site/index-5.html">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid_3">
+                        <span class="h8">Follow us</span>
+                        <ul class="socials2">
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="grid_3 preffix_1">
+                        <span class="h8">Join our newsletter</span>
+                        <p class="newsletter-p">And always stay informed of the latest company news and events!</p>
+                        <a class="btn-blue" id="show-newsletter-form">Sign up</a>
+                        <div class="newsletter-form" id="newsletter-form1">
+                            <form id="form1">
+                                <div class="success">Your subscribe request has been sent!</div>
+                                <fieldset>
+                                    <label class="name">
+                                        <input type="text" value="Your Name:">
+                                        <span class="error">*This is not a valid name.</span></label>
+                                    <label class="email">
+                                        <input type="email" value="Your E-mail:">
+                                        <span class="error">*This is not a valid email address.</span></label>
+                                    <a href="#" class="button" data-type="submit">Submit</a>
+                                </fieldset>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="wow bounceInLeft wrapper6">
-        <div class="container">
-            <div class="row">
-                <div class="grid_12">
-                    <div class="privacy-block">
-                        &copy; <span id="copyright-year"></span><a href="#"> JACOB. Pool Maintenance. </a><a href="index-6.html">Privacy policy</a>
-                        <!--{%FOOTER_LINK} -->
+        <div class="wow bounceInLeft wrapper6">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_12">
+                        <div class="privacy-block">
+                            &copy; <span id="copyright-year"></span><a href="#"> JACOB. Pool Maintenance. </a><a
+                                href="site/index-6.html">Privacy policy</a>
+                            <!--{%FOOTER_LINK} -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </footer>
+
+    <div class="google-map_footer wow bounceInRight">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094"
+            style="border:0"></iframe>
     </div>
-</footer>
 
-<div class="google-map_footer wow bounceInRight">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
-</div>
-
-<script src="js/script.js"></script>
+    <script src="site/js/script.js"></script>
 </body>
+
 </html>

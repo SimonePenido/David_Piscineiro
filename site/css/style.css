@@ -27,7 +27,7 @@ a {
   transition: all 0.3s ease;
 }
 a:hover {
-  color: #e85456;
+  color: #09a745;
 }
 img {
   max-width: 100%;
@@ -64,7 +64,7 @@ h3 {
 }
 h4 {
   font: 900 14px/21px "Lato", sans-serif;
-  color: #e85456;
+  color: #80e651;
   text-transform: uppercase;
 }
 h4 a:hover {
