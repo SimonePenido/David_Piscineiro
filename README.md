@@ -21,8 +21,7 @@ O projeto está disponível para visualização em:
 
 - HTML5  
 - CSS3  
-- JavaScript (se aplicável)
-
+- JavaScript 
 ---
 
 ## Objetivo
